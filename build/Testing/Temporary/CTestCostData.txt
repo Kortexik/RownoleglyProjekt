@@ -1,0 +1,7 @@
+numerical_openmp 6 0.0683614
+command_line 2 0.167584
+program_output 4 0.121551
+shared_mathematics 3 0.212145
+sequential_comparison 2 0.239886
+sequential_output 2 0.252465
+---

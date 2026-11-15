@@ -1,0 +1,55 @@
+$ /private/tmp/mc-openmp-cmake/cmake/data/bin/cmake -S /Users/konradku/ProgramowanieRównoległeProjekt -B /Users/konradku/ProgramowanieRównoległeProjekt/build -DCMAKE_BUILD_TYPE=Release
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/konradku/ProgramowanieRównoległeProjekt/build
+$ /private/tmp/mc-openmp-cmake/cmake/data/bin/cmake --build /Users/konradku/ProgramowanieRównoległeProjekt/build --parallel
+[  5%] Building CXX object CMakeFiles/mc_core.dir/src/monte_carlo.cpp.o
+[ 10%] Linking CXX static library libmc_core.a
+[ 10%] Built target mc_core
+[ 15%] Building CXX object CMakeFiles/mc_sequential.dir/src/seq/sequential.cpp.o
+[ 21%] Building CXX object CMakeFiles/mc_openmp.dir/src/omp/integrator.cpp.o
+[ 26%] Building CXX object CMakeFiles/mc_openmp.dir/src/omp/benchmark.cpp.o
+[ 31%] Building CXX object CMakeFiles/mc_math_tests.dir/tests/test_math.cpp.o
+[ 36%] Linking CXX static library libmc_sequential.a
+[ 42%] Linking CXX executable mc_math_tests
+[ 47%] Linking CXX static library libmc_openmp.a
+[ 47%] Built target mc_sequential
+[ 47%] Built target mc_math_tests
+[ 47%] Built target mc_openmp
+[ 52%] Building CXX object CMakeFiles/mc_seq.dir/src/seq/main.cpp.o
+[ 57%] Building CXX object CMakeFiles/mc_seq.dir/src/application.cpp.o
+[ 63%] Building CXX object CMakeFiles/mc_omp.dir/src/omp/main.cpp.o
+[ 68%] Building CXX object CMakeFiles/mc_tests.dir/tests/test_core.cpp.o
+[ 73%] Building CXX object CMakeFiles/mc_omp.dir/src/application.cpp.o
+[ 78%] Building CXX object CMakeFiles/mc_sequential_tests.dir/tests/test_sequential.cpp.o
+[ 84%] Linking CXX executable mc_sequential_tests
+[ 89%] Linking CXX executable mc_tests
+[ 94%] Linking CXX executable mc_seq
+[ 94%] Built target mc_sequential_tests
+[100%] Linking CXX executable mc_omp
+[100%] Built target mc_tests
+[100%] Built target mc_seq
+[100%] Built target mc_omp
+$ /private/tmp/mc-openmp-cmake/cmake/data/bin/cmake --build /Users/konradku/ProgramowanieRównoległeProjekt/build --target mc_experiments --parallel
+[ 22%] Built target mc_core
+[ 44%] Built target mc_sequential
+[ 77%] Built target mc_openmp
+[ 88%] Building CXX object CMakeFiles/mc_experiments.dir/bench/experiments.cpp.o
+[100%] Linking CXX executable mc_experiments
+[100%] Built target mc_experiments
+$ /private/tmp/mc-openmp-cmake/cmake/data/bin/ctest --test-dir /Users/konradku/ProgramowanieRównoległeProjekt/build --output-on-failure
+Test project /Users/konradku/ProgramowanieRównoległeProjekt/build
+    Start 1: shared_mathematics
+1/5 Test #1: shared_mathematics ...............   Passed    0.64 sec
+    Start 2: numerical_openmp
+2/5 Test #2: numerical_openmp .................   Passed    0.41 sec
+    Start 3: sequential_comparison
+3/5 Test #3: sequential_comparison ............   Passed    0.48 sec
+    Start 4: program_output
+4/5 Test #4: program_output ...................   Passed    0.49 sec
+    Start 5: sequential_output
+5/5 Test #5: sequential_output ................   Passed    0.50 sec
+
+100% tests passed out of 5
+
+Total Test time (real) =   2.52 sec

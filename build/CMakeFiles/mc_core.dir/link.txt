@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmc_core.a CMakeFiles/mc_core.dir/src/monte_carlo.cpp.o
+/usr/bin/ranlib libmc_core.a
