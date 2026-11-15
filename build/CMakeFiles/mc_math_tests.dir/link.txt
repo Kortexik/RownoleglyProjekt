@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/mc_math_tests.dir/tests/test_math.cpp.o -o mc_math_tests  libmc_core.a

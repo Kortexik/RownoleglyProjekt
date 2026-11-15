@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmc_sequential.a CMakeFiles/mc_sequential.dir/src/seq/sequential.cpp.o
+/usr/bin/ranlib libmc_sequential.a

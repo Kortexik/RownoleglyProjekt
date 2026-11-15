@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmc_openmp.a CMakeFiles/mc_openmp.dir/src/omp/integrator.cpp.o CMakeFiles/mc_openmp.dir/src/omp/benchmark.cpp.o
+/usr/bin/ranlib libmc_openmp.a

@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -O3 -DNDEBUG -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/mc_core.dir/src/monte_carlo.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/monte_carlo.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/monte_carlo.cpp",
+  "output": "CMakeFiles/mc_core.dir/src/monte_carlo.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -Xpreprocessor -fopenmp -o CMakeFiles/mc_openmp.dir/src/omp/integrator.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/omp/integrator.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/omp/integrator.cpp",
+  "output": "CMakeFiles/mc_openmp.dir/src/omp/integrator.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -Xpreprocessor -fopenmp -o CMakeFiles/mc_openmp.dir/src/omp/benchmark.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/omp/benchmark.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/omp/benchmark.cpp",
+  "output": "CMakeFiles/mc_openmp.dir/src/omp/benchmark.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -O3 -DNDEBUG -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/mc_sequential.dir/src/seq/sequential.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/seq/sequential.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/seq/sequential.cpp",
+  "output": "CMakeFiles/mc_sequential.dir/src/seq/sequential.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp -o CMakeFiles/mc_omp.dir/src/omp/main.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/omp/main.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/omp/main.cpp",
+  "output": "CMakeFiles/mc_omp.dir/src/omp/main.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp -o CMakeFiles/mc_omp.dir/src/application.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/application.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/application.cpp",
+  "output": "CMakeFiles/mc_omp.dir/src/application.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -o CMakeFiles/mc_seq.dir/src/seq/main.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/seq/main.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/seq/main.cpp",
+  "output": "CMakeFiles/mc_seq.dir/src/seq/main.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -o CMakeFiles/mc_seq.dir/src/application.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/src/application.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/src/application.cpp",
+  "output": "CMakeFiles/mc_seq.dir/src/application.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp -o CMakeFiles/mc_experiments.dir/bench/experiments.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/bench/experiments.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/bench/experiments.cpp",
+  "output": "CMakeFiles/mc_experiments.dir/bench/experiments.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -o CMakeFiles/mc_math_tests.dir/tests/test_math.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/tests/test_math.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/tests/test_math.cpp",
+  "output": "CMakeFiles/mc_math_tests.dir/tests/test_math.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp -o CMakeFiles/mc_tests.dir/tests/test_core.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/tests/test_core.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/tests/test_core.cpp",
+  "output": "CMakeFiles/mc_tests.dir/tests/test_core.cpp.o"
+},
+{
+  "directory": "/Users/konradku/ProgramowanieRównoległeProjekt/build",
+  "command": "/usr/bin/c++  -I/Users/konradku/ProgramowanieRównoległeProjekt/include -isystem /Users/konradku/ProgramowanieRównoległeProjekt/external/Random123/include -isystem /opt/homebrew/opt/libomp/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp -o CMakeFiles/mc_sequential_tests.dir/tests/test_sequential.cpp.o -c /Users/konradku/ProgramowanieRównoległeProjekt/tests/test_sequential.cpp",
+  "file": "/Users/konradku/ProgramowanieRównoległeProjekt/tests/test_sequential.cpp",
+  "output": "CMakeFiles/mc_sequential_tests.dir/tests/test_sequential.cpp.o"
+}
+]
